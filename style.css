@@ -1,0 +1,92 @@
+/* CSS files add styling rules to your content */
+/* style and color of body */
+body {
+  font-family: American Typewriter;
+  margin: 2em;
+}
+
+/* style and color of title */
+h1 {
+  font-family: monospace;
+  color: #1F618D;
+  font-size: 40px;
+}
+
+/* style and color of list title */
+h2.list {
+  font-family: monospace;
+  color: #DE3163;
+  font-size: 25px;
+}
+
+/* style and color of link title */
+h2.link {
+  font-family: monospace;
+  color: #17A589;
+  font-size: 25px;
+}
+
+/* style and color of contact title */
+h2.contact {
+  font-family: monospace;
+  color: #D68910;
+  font-size: 25px;
+}
+
+/* style and color of image title */
+h2.image {
+  font-family: monospace;
+  color: #E74C3C;
+  font-size: 25px;
+}
+
+
+/* style and color using in "contacts" table */
+table, th, td {
+  border: 1px solid black;
+  text-align: center;
+  font-family: serif;
+}
+
+/* style and color using in "contscts" table */
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+/* using in biki's image */
+.responsive {
+  width: 30%;
+  height: auto;
+/*   max-width: 400px; */
+}
+
+/* style and color of list paragraph  */
+p.list {
+  font-family: Luminari;
+  color: #5499C7;
+}
+
+/* style and color of link paragraph  */
+p.link {
+  font-family: Luminari;
+  color: #5499C7;
+}
+
+/* style and color of contact paragraph  */
+p.contact {
+  font-family: Luminari;
+  color: #5499C7;
+}
+
+/* style and color of image paragraph  */
+p.image {
+  font-family: Luminari;
+  color: #5499C7;
+}
+
+/* wrapper using in list area */
+.wrapper {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
